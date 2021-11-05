@@ -6,8 +6,8 @@
  A tool to extract features from a stream network.
                              -------------------
         begin                : 2014-05-07
-        copyright            : (C) 2014 by Linfiniti Consulting CC.
-        email                : tim@linfiniti.com
+        copyright            : (C) Kartoza (Pty) Ltd.
+        email                : tim@kartoza.com
  ***************************************************************************/
 
 /***************************************************************************
@@ -31,8 +31,8 @@ if not mute_logs:
     from . import custom_logging  # pylint: disable=relative-import
 
     SENTRY_URL = (
-        'http://b257c02328384628a50de20d257cf06e:'
-        'ab515d8c88b746d484351321b0111b44@sentry.linfiniti.com/10')
+        'http://8a67c7961c844500a25d7dfd048c4da9:'
+        'de927b27fe5342dbb358accd031661ad@sentry.kartoza.com/31')
     custom_logging.setup_logger(SENTRY_URL)
 
 
